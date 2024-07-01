@@ -734,62 +734,53 @@ sectionn {
     }
 }
 
-.course-sec .title
-{
+.course-sec .title {
     width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.course-sec .title h1
-{
+
+.course-sec .title h1 {
     margin-left: 60px;
     border-bottom: none;
-    font-size:16px;
+    font-size: 16px;
 }
-.course-sec .title button 
-{
-   
+
+.course-sec .title button {
     margin-right: 100px;
     padding: 8px 16px;
-    border: 3px solid  lightgrey;
-    border-radius:12px ;
+    border: 3px solid lightgrey;
+    border-radius: 12px;
     font-weight: bold;
     font-size: 1.2rem;
     cursor: pointer;
 }
-  .bx 
-  {
-    padding-right: 10px;
-    font-size: 1.4rem;
-  }
 
-.course-container
-{
-    display:flex;
+.course-container {
+    display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     box-shadow: 7px 5px 6px rgb(166, 164, 164);
     padding-bottom: 16px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px; /* Adjusted margin for responsiveness */
 }
-.course-container .middle 
-{
+
+.course-container .middle {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    small 
-    {
-        color: rgb(106 17 176);
-        padding: 8px ;
-    }
 }
-.down
-{
+
+.course-container .middle small {
+    color: rgb(106, 17, 176);
+    padding: 8px;
+}
+
+.down {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -797,84 +788,73 @@ sectionn {
     width: 100%;
     margin-left: 50px;
 }
-.down .box 
-{
+
+.down .box {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items:center ;
-   margin: 4px 0;
-   img 
-   {
-    margin-left: -5px;
-   }
-   i 
-   {
+    align-items: center;
+    margin: 4px 0;
+}
 
-   }
-   h3
-   {
+.down .box img {
+    margin-left: -5px;
+}
+
+.down .box h3 {
     font-size: 0.9rem;
     margin-left: 20px;
     font-weight: 300;
-   }
 }
-.btns 
-{
+
+.btns {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-top:20px;
-    
+    margin-top: 20px;
 }
-.course-sec .sideheading 
-{
+
+.course-sec .sideheading {
     margin: 20px 0;
-    
     text-align: start;
     font-size: 2rem;
     width: 100%;
 }
-.course-container img 
-{
-    width: 400px;
+
+.course-container img {
+    width: 300px;
     height: 150px;
-    border-radius: 8px 8px 0 0 ;
-    
+    border-radius: 8px 8px 0 0;
 }
-.btns .bt1 
-{
+
+.btns .bt1,
+.btns .bt2 {
     font-size: 1.1rem;
     padding: 8px 12px;
-    color:black;
     border-radius: 6px;
     border: 2px solid black;
     width: 40%;
 }
-.btns .bt2 
-{
-    font-size: 1.1rem;
-    padding: 8px 12px;
+
+.btns .bt2 {
     color: white;
-    border-radius: 6px;
-    background:chocolate;
-    border: 2px solid black;
-    width: 40%;
+    background: chocolate;
 }
-.course-grid 
-{
+
+.course-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
-.courses 
-{
+
+.courses {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .course-sec {
@@ -882,6 +862,13 @@ sectionn {
         align-items: flex-start;
         margin-left: 20px;
         font-size: 1.5rem;
+    }
+
+    .course-sec .title {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .course-sec .title button {
@@ -904,7 +891,9 @@ sectionn {
         align-items: center;
     }
 
-    .btns .bt1, .btns .bt2 {
+    .btns .bt1,
+    .btns .bt2 {
+        width: 60%;
         margin-top: 10px;
     }
 
