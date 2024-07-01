@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses - Leran to code</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.0/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <a href="/" class="navbar-brand">
+                        <img src="PWSkills-main.png" alt="PW Skills Logo" class="logo">
+                    </a>
+                </div>
+                <div class="col">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search by product title" class="search-input">
+                        <span class="search-icon"><i class="bi bi-search"></i></span>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <a href="/login" class="btn login-register" style="background-color: chocolate; color: white;">Login
+                        / Register</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Courses</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/course1" class="dropdown-item">Course 1</a></li>
+                        <li><a href="/course2" class="dropdown-item">Course 2</a></li>
+                        <li><a href="/course3" class="dropdown-item">Course 3</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="/online-degree" class="nav-link">
+                        <img src="https://pwskills.com/images/newRibbon.gif" alt="New Ribbon"                           style="position: absolute; top: -5px; left: -18px; width: 40px; height: auto;">
+                        Online Degree
+                    </a>
+                </li>
+                <li class="nav-item"><a href="/pw-skills-lab" class="nav-link">PW Skills Lab</a></li>
+                <li class="nav-item"><a href="/job-portal" class="nav-link">Job Portal</a></li>
+                <li class="nav-item"><a href="/experience-portal" class="nav-link">Experience Portal</a></li>
+                <li class="nav-item"><a href="/affiliate" class="nav-link">Become an affiliate</a></li>
+                <li class="nav-item"><a href="/hall-of-fame" class="nav-link">Hall Of Fame</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="banner-section">
+        <div class="container bannner">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <h1 class="banner-title" style="color:white;">Accelerate your Career Growth & <span
+                            style="color: orange;">Upskill Yourself</span></h1>
+                    <hr class="line">
+                    <p class="banner-subtitle" style="color:white; font-weight: bold;">World-Class Certification &
+                        Degree Program</p>
+                    <br>
+                    <br>
+                    <div class="headings-container" style="color:white;">
+                        <h3 class="blink">10 Million Learners</h3>
+                        <h3 class="blink">4.8/5 Learner's Rating</h3>
+                        <h3 class="blink">500% Highest Salary Hike</h3>
+                    </div>
+                    <a href="#" class="banner-button">Explore Courses</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <br>
+    <sectionn>
+        <div class="logoo">
+            <p>Process Advisors</p>
+            <img src="https://intellipaat.com/wp-content/themes/intellipaat/images/ey-rating.svg" width="120"
+                height="60" alt="intellipaat-ey-image" class="img-fluid">
+        </div>
+        <div class="container">
+            <div id="carouselContent" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item  text-center p-4">
+                        <p><strong>95%</strong> learner satisfaction score post completion of the program</p>
+                    </div>
+                    <div class="carousel-item active text-center p-4">
+                        <p>Fresher earned <strong>30 LPA</strong> salary package on completion of the course</p>
+                    </div>
+                    <div class="carousel-item text-center p-4">
+                        <p><strong>53%</strong> of learners received 50% and above salary hike post completion of the
+                            program</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev custom-control" href="#carouselContent" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next custom-control" href="#carouselContent" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+                
+            </div>
+        </div>
+        <img src="main.png" style="width: 100%; margin-top: 0;" alt="">
+    </sectionn>
+    <br>
+    <!--for remain use 
+-->
+<div class="slider">
+    <p class="text-center1 text-center" style="margin-top:90px; font-weight: bold; font-size: 18px;">Programs in Collaboration with World's Top Universities & MNC's</p>
+    <marquee behavior="scroll" direction="left" style="margin-top: 14px; height: 60px;" scrollamount="11">
+        <img src="https://intellipaat.com/course-image/2024/06/IIT-Roorkee-Home-Page.png" width="150" height="60" alt="IIT Roorkee" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2021/06/02-IIT_Guwahati.png" width="150" height="60" alt="IIT Guwahati" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2023/01/Essex-Logo-Home-1.png" width="150" height="60" alt="University of Essex" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2021/11/Liverpool.png" width="150" height="60" alt="University of Liverpool" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2021/11/Bilhan.png" width="150" height="60" alt="Bhilai Institute of Technology" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2021/06/04-MNIT-Jaipur.png" width="150" height="60" alt="MNIT Jaipur" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2023/01/Rotman-home.png" width="150" height="60" alt="Rotman School of Management" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2023/10/VNIT-Nagpur.png" width="150" height="60" alt="VNIT Nagpur" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2021/06/06-Nasscom.png" width="150" height="60" alt="NASSCOM" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2023/12/Microsoft.png" width="150" height="60" alt="Microsoft" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2021/06/09-IIBA.png" width="150" height="60" alt="IIBA" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2021/06/10-EC-Council.png" width="150" height="60" alt="EC Council" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2021/06/12-CompTIA.png" width="150" height="60" alt="CompTIA" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2022/01/IU-University-logo-for-header.png" width="150" height="60" alt="IU University" style="margin-right: 20px;">
+        <img src="https://intellipaat.com/course-image/2023/01/MIT-IDSS.png" width="150" height="60" alt="MIT IDSS" style="margin-right: 20px;">
+    </marquee>
+    
+</div>
+<more>
+    <section class="categories">
+        <h1>Explore Our Categories</h1>
+        <p>Discover Your Passion</p>
+        <div class="categories-container">
+            <div class="category">
+                <div class="category-content">
+                    <div class="category-details">
+                        <h2>Data Science & Analytics</h2>
+                        <p>Become expert at drawing intelligence from data and get noticed by top...</p>
+                    </div>
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/bc14c559-783f-4f78-b7a7-7a638810c7da.svg" alt="Data Science & Analytics">
+                </div>
+                <hr> 
+                <div class="category-footer">
+                    <a href="#" class="know-more">Know More</a>
+                    <span class="arrow-circle"><span class="arrow">→</span></span>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-content">
+                    <div class="category-details">
+                        <h2>Software Development</h2>
+                        <p>Upskill in-demand software & technology skills to attain desired jobs...</p>
+                    </div>
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/e6cac10c-85fd-4315-9def-48aa3094a3e9.svg" alt="Software Development">
+                </div>
+                <hr>
+                <div class="category-footer">
+                    <a href="#" class="know-more">Know More</a>
+                    <span class="arrow-circle"><span class="arrow">→</span></span>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-content">
+                    <div class="category-details">
+                        <h2>Banking & Finance</h2>
+                        <p>Up-skill yourself with relevant courses to become job ready in Banking...</p>
+                    </div>
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/e6cac10c-85fd-4315-9def-48aa3094a3e9.svg" alt="Banking & Finance">
+                </div>
+                <hr>
+                <div class="category-footer">
+                    <a href="#" class="know-more">Know More</a>
+                    <span class="arrow-circle"><span class="arrow">→</span></span>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-content">
+                    <div class="category-details">
+                        <h2>Programming Courses</h2>
+                        <p>Build strong coding foundations for a high-paying technology career...</p>
+                    </div>
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/8ea260a4-61a7-44de-940c-b242b2584872.svg" alt="Programming Courses">
+                </div>
+                <hr>
+                <div class="category-footer">
+                    <a href="#" class="know-more">Know More</a>
+                    <span class="arrow-circle"><span class="arrow">→</span></span>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-content">
+                    <div class="category-details">
+                        <h2>Business Technology</h2>
+                        <p>Explore the vast area of new categories under Business Technology...</p>
+                    </div>
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/7cf6e398-9b29-40d6-a0f8-dad29ccd13e1.svg" alt="Business Technology">
+                </div>
+                <hr>
+                <div class="category-footer">
+                    <a href="#" class="know-more">Know More</a>
+                    <span class="arrow-circle"><span class="arrow">→</span></span>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-content">
+                    <div class="category-details">
+                        <h2>PW School of Healthcare</h2>
+                        <p>Explore the vast sector of Healthcare by Joining our Degree & Diploma Programs...</p>
+                    </div>
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/categoryIcon/81e68818-4ecc-4e0f-9055-29e9cfafc668.svg" alt="PW School of Healthcare">
+                </div>
+                <hr>
+                <div class="category-footer">
+                    <a href="#" class="know-more">Know More</a>
+                    <span class="arrow-circle"><span class="arrow">→</span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+</more>
+<br>
+<br>
+
+
+<!--Parallax-->
+<sectionnn>
+    <div class="parallax" style="background-image: url('parallax4.png');"></div>
+    <div class="parallax" style="background-image: url('parallax3.png');"></div>
+    <div class="parallax" style="background-image: url('parallax2.png');"></div>
+    <div class="parallax" style="background-image: url('parallax 1.png');"></div>
+</sectionnn>
+<br>
+<br>
+<section class="course-sec courses" style="height: 100%;padding-bottom: 50px; background-color: white;display: flex;flex-direction: column;align-items: center;"
+    <div class="title">
+        <h1>Explore Our Courses</h1>
+    </div>
+    <div class="courses">
+        <h1 class="sideheading">Data Science & Analytics</h1>
+        <div class="course-grid">
+            <div class="course-container">
+                <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/course-thumbnail/2f57def6-25f4-44ee-8f41-6bb6e16d6179.png" alt="">
+                <div class="middle">
+                    <small>Integrated with GenAI modules</small>
+                    <h3>Master in Data Science</h3>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <i class='bx bx-book-open'></i>
+                        <h3>Master's Degree</h3>
+                    </div>
+                    <div class="box">
+                        <i class='bx bx-calendar'></i>
+                        <h3>4 Months</h3>
+                    </div>
+                    <div class="box">
+                        <i class='bx bx-star'></i>
+                        <h3>WES Recognized DS degree</h3>
+                    </div>
+                </div>
+                <div class="btns">
+                    <button class="bt1">Explore</button>
+                    <button class="bt2"><span><i class='bx bxs-download'></i></span>
+                        Buy Now</button>
+                </div>
+            </div>
+            <div class="course-container">
+                <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/course-thumbnail/2f57def6-25f4-44ee-8f41-6bb6e16d6179.png" alt="">
+                <div class="middle">
+                    <small>Integrated with GenAI modules</small>
+                    <h3>Master in Business Analytics</h3>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <i class='bx bx-book-open'></i>
+                        <h3>Master's Degree</h3>
+                    </div>
+                    <div class="box">
+                        <i class='bx bx-calendar'></i>
+                        <h3>8 Months</h3>
+                    </div>
+                    <div class="box">
+                        <i class='bx bx-star'></i>
+                        <h3>WES Recognized MBA degree</h3>
+                    </div>
+                </div>
+                <div class="btns">
+                    <button class="bt1">Explore</button>
+                    <button class="bt2"><span><i class='bx bxs-download'></i></span>
+                        Buy Now</button>
+                </div>
+            </div>
+            <div class="course-container">
+                <img src="https://s3.ap-south-1.amazonaws.com/cdn.pwskills.com/assets/uploads/course-thumbnail/ab3d4511-cb59-488f-a017-9e9c0c715168.png" alt="">
+                <div class="middle">
+                    <small>Integrated with GenAI modules</small>
+                    <h3>Master in Machine Learning</h3>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <i class='bx bx-book-open'></i>
+                        <h3>Master's Degree</h3>
+                    </div>
+                    <div class="box">
+                        <i class='bx bx-calendar'></i>
+                        <h3>9 Months</h3>
+                    </div>
+                    <div class="box">
+                        <i class='bx bx-star'></i>
+                        <h3>WES Recognized ML degree</h3>
+                    </div>
+                </div>
+                <div class="btns">
+                    <button class="bt1">Explore</button>
+                    <button class="bt2"><span><i class='bx bxs-download'></i></span>
+                        Buy Now</button>
+                </div>
+            </div>
+        </div>
+    
+        
+        </div>
+    </div>
+    
+    
+</section>
+
+<!--Footer 1-->
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <img style="width:100%; height: 250px; margin-left:-30px;"src="footer.img.png">
+        </div>
+        <div class="footer-section grey">
+            <h4>Analytics Courses</h4>
+            <ul>
+                <li>Data Science Course</li>
+                <li>Artificial Intelligence Course</li>
+                <li>Data Analytics Course</li>
+                <li>Machine Learning Course</li>
+                <li>Python Data Science Course</li>
+                <li>Business Analytics Course</li>
+                <li>Python Course</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Cloud Courses</h4>
+            <ul>
+                <li>Azure Course</li>
+                <li>DevOps Course</li>
+                <li>Cyber Security Course</li>
+                <li>AWS Solutions Architect</li>
+                <li>Salesforce Course</li>
+                <li>Selenium Course</li>
+                <li>AWS DevOps Course</li>
+                <li>Cloud Computing Courses</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Trending Courses</h4>
+            <ul>
+                <li>Ethical Hacking Course</li>
+                <li>Power BI Course</li>
+                <li>Informatica Course</li>
+                <li>Digital Marketing Course</li>
+                <li>Business Analyst Course</li>
+                <li>Investment Banking Course</li>
+                <li>Azure DevOps Course</li>
+                <li>Azure Data Engineer Course</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Popular Courses</h4>
+            <ul>
+                <li>Electric Vehicle Course</li>
+                <li>UI UX Design Course</li>
+                <li>SQL Course</li>
+                <li>Tableau Course</li>
+                <li>Full Stack Developer Course</li>
+                <li>Data Engineering Course</li>
+                <li>Supply Chain Management Course</li>
+                <li>General Management Course</li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+    
+    <!--footer 2-->
+    <!-- Footer Section -->
+    <footer class="foooter">
+    <div class="foooter-container">
+        <div class="foooter-section">
+            <h4>Browse By Domains</h4>
+            <ul>
+                <li><a href="#">Data Science Courses</a> |</li>
+                <li><a href="#">Big Data Analytics Courses</a> |</li>
+                <li><a href="#">Business Intelligence Courses</a> |</li>
+                <li><a href="#">Salesforce Courses</a> |</li>
+                <li><a href="#">Cloud Computing Courses</a> |</li>
+                <li><a href="#">Digital Marketing Courses</a> |</li>
+                <li><a href="#">AI & Machine Learning Courses</a> |</li>
+                <li><a href="#">Programming Courses</a> |</li>
+                <li><a href="#">Database Courses</a> |</li>
+                <li><a href="#">Project Management Courses</a> |</li>
+                <li><a href="#">Cyber Security and Ethical Hacking Courses</a> |</li>
+                <li><a href="#">Web Development Courses</a> |</li>
+                <li><a href="#">Software Testing Courses</a> |</li>
+                <li><a href="#">Automation Courses</a> |</li>
+                <li><a href="#">Job Oriented Courses</a> |</li>
+                <li><a href="#">Degree Courses</a> |</li>
+            </ul>
+        </div>
+        <div class="foooter-section">
+            <h4>Degree Program</h4>
+            <ul>
+                <li><a href="#">Online M Tech in AI & ML</a> |</li>
+                <li><a href="#">Masters degree in Data Science</a> |</li>
+                <li><a href="#">MBA Big Data Management</a> |</li>
+                <li><a href="#">Masters degree in Artificial Intelligence</a> |</li>
+                <li><a href="#">Global MBA</a> |</li>
+                <li><a href="#">MBA in International Marketing</a> |</li>
+                <li><a href="#">Masters in Computer Science</a> |</li>
+                <li><a href="#">MBA in Finance and Accounting</a> |</li>
+                <li><a href="#">Masters in Engineering Management</a> |</li>
+                <li><a href="#">Msc in Data Science</a> |</li>
+                <li><a href="#">M.Tech in Applied AI</a> |</li>
+            </ul>
+        </div>
+        <div class="foooter-section">
+            <h4>Popular Tutorials</h4>
+            <ul>
+                <li><a href="#">Data Science Tutorials</a> |</li>
+                <li><a href="#">Machine Learning Tutorials</a> |</li>
+                <li><a href="#">Cyber Security Tutorials</a> |</li>
+                <li><a href="#">Salesforce Tutorials</a> |</li>
+                <li><a href="#">AWS Tutorials</a> |</li>
+                <li><a href="#">Azure Tutorials</a> |</li>
+                <li><a href="#">SQL Tutorials</a> |</li>
+                <li><a href="#">Selenium Tutorials</a> |</li>
+                <li><a href="#">Ethical Hacking Tutorials</a> |</li>
+                <li><a href="#">Artificial Intelligence Tutorials</a> |</li>
+            </ul>
+        </div>
+        <div class="foooter-section">
+            <h4>Popular Resources</h4>
+            <ul>
+                <li><a href="#">Data Science</a> |</li>
+                <li><a href="#">Machine Learning</a> |</li>
+                <li><a href="#">AWS</a> |</li>
+                <li><a href="#">Digital Marketing</a> |</li>
+                <li><a href="#">Cyber Security</a> |</li>
+                <li><a href="#">Artificial Intelligence</a> |</li>
+                <li><a href="#">DevOps</a> |</li>
+                <li><a href="#">Python</a> |</li>
+                <li><a href="#">UI UX Design</a> |</li>
+                <li><a href="#">Ethical Hacking</a> |</li>
+            </ul>
+        </div>
+        <p style="font-size: 13px;">© Copyright 2011 - 2024 Intellipaat Software Solutions Pvt. Ltd.</p>
+      
+    </div>
+    
+    <div class="foooter-bottom " style="text-align:center" >
+        <div class="foooter-section" >
+        </div>
+        <p>ADDRESS: 6TH FLOOR, PRIMECO TOWERS, AREKERE GATE JUNCTION, BANNERGHATTA MAIN ROAD, BENGALURU, KARNATAKA 560076, INDIA.</p>
+        <p>DISCLAIMER: THE CERTIFICATION NAMES ARE THE TRADEMARKS OF THEIR RESPECTIVE OWNERS.</p>
+    </div>
+    </footer>
+     <div class="last" style="background-color: black; color: white; font-weight: bold; text-align:center;">Call Our Course Advisors IND : +91-7022374614    US : 1-800-216-8930 (Toll Free)</div>
+
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const headings = document.querySelectorAll('.blink');
+        let currentIndex = 0;
+
+        function showNextHeading() {
+            headings.forEach((heading, index) => {
+                if (index === currentIndex) {
+                    heading.classList.add("active");
+                } else {
+                    heading.classList.remove("active");
+                }
+            });
+
+            currentIndex = (currentIndex + 1) % headings.length;
+        }
+
+        showNextHeading(); // Show the first heading immediately
+        setInterval(showNextHeading, 4000); // Switch headings every 4 seconds
+    });
+</script>
+
+</html>
